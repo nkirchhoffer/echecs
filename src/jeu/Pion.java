@@ -2,12 +2,28 @@ package jeu;
 
 import java.awt.*;
 
+/**
+ * Pion
+ */
 public class Pion extends Piece {
 
+    /**
+     * Constructeur par défaut
+     * @param couleur instance de Color
+     */
     public Pion(Color couleur) {
         super('P', couleur);
     }
 
+    /**
+     * Vérification de la validité
+     * @param x1 origine x
+     * @param y1 origine y
+     * @param x2 destination x
+     * @param y2 destination y
+     * @param plateau plateau
+     * @return vrai ou faux
+     */
     public boolean isValid(int x1, int y1, int x2, int y2, Piece[][] plateau) {
         if ((y1 != 1 && y2 > (y1 + 1)) || (y1 == 1 && y2 > (y1 + 2))) {
             return false;
