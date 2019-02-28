@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"jeu","l":"Cavalier"},{"p":"tests","l":"CavalierTest"},{"p":"jeu","l":"Echiquier"},{"p":"jeu","l":"Fou"},{"p":"jeu","l":"Piece"},{"p":"jeu","l":"Pion"},{"p":"tests","l":"PionTest"},{"p":"jeu","l":"Principale"},{"p":"jeu","l":"Roi"},{"p":"tests","l":"RoiTest"},{"p":"jeu","l":"Tour"},{"p":"tests","l":"TourTest"}]

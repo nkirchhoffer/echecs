@@ -6,6 +6,7 @@ import java.awt.*;
  * Point d'entrée du projet
  *
  * @author Nicolas Kirchhoffer
+ * @version 1.0
  */
 public class Principale {
 
